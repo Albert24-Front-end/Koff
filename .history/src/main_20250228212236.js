@@ -45,7 +45,7 @@ const init =()=>{
   new Header().mount();
   new Main().mount();
   new Footer().mount();
-  new Order().mount(new Main().element);
+  new Order().mount();
 
   productSlider();
 

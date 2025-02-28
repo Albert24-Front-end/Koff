@@ -1,10 +1,7 @@
-import "normalize.css";
-import "./style.scss";
 import Navigo from 'navigo';
 import { Header } from '../modules/Header/header';
 import { Main } from '../modules/Main/MAin';
 import { Footer } from '../modules/Footer/Footer';
-import { Order } from '../modules/Order/Order';
 
 // Динамический импорт модулей: вызов productSlider() - асинхронный импорт модулей библиотеки Swiper через промисы 
 // - получение результата вызова промисов в виде массива деструктирированных модулей и объекта самой библиотеки
@@ -45,7 +42,7 @@ const init =()=>{
   new Header().mount();
   new Main().mount();
   new Footer().mount();
-  new Order().mount(new Main().element);
+  new Orde().mount();
 
   productSlider();
 
