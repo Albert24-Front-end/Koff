@@ -1,5 +1,4 @@
-import "normalize.css";
-import "./style.scss";
+
 import Navigo from 'navigo';
 import { Header } from '../modules/Header/header';
 import { Main } from '../modules/Main/MAin';
